@@ -1,4 +1,4 @@
-!pip install streamlit requests python-dotenv
+
 import streamlit as st
 import json
 import requests
@@ -93,4 +93,5 @@ def main():
 
 # Step 3: Run the Streamlit app
 if __name__ == "__main__":
+
     main()
