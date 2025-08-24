@@ -81,7 +81,6 @@ def main():
         st.header("ℹ️ About")
         st.write("This search tool uses the Serper API to fetch search results from Google.")
         st.write("**Features:**")
-        st.write("• Top 4 search results")
         st.write("• Real-time web search")
         st.write("• Clean, formatted output")
         
@@ -94,5 +93,6 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
