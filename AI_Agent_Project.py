@@ -8,8 +8,7 @@ import os
 # Load environment variables
 load_dotenv()
 
-# Your Serper API key - you can put this in a .env file for security
-SERPER_API_KEY = 'SERPER_API_KEY'  # Replace with your actual key
+SERPER_API_KEY = st.secrets["SERPER_API_KEY"]
 
 # Step 1: Define the function to search the internet using Serper API
 def search_internet(query: str) -> str:
@@ -95,4 +94,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
